@@ -1,0 +1,93 @@
+{
+    "area_cluster": {
+        "C1": 0,
+        "C2": 11,
+        "C3": 15,
+        "C4": 16,
+        "C5": 17,
+        "C6": 18,
+        "C7": 19,
+        "C8": 20,
+        "C9": 21,
+        "C10": 1,
+        "C11": 2,
+        "C12": 3,
+        "C13": 4,
+        "C14": 5,
+        "C15": 6,
+        "C16": 7,
+        "C17": 8,
+        "C18": 9,
+        "C19": 10,
+        "C20": 12,
+        "C21": 13,
+        "C22": 14
+    },
+    "segment": {
+        "A": 0,
+        "C1": 3,
+        "C2": 4,
+        "B2": 2,
+        "B1": 1,
+        "Utility": 5
+    },
+    "model": {
+        "M1": 0,
+        "M2": 3,
+        "M3": 4,
+        "M4": 5,
+        "M5": 6,
+        "M6": 7,
+        "M7": 8,
+        "M8": 9,
+        "M9": 10,
+        "M10": 1,
+        "M11": 2
+    },
+    "fuel_type": {
+        "CNG": 0,
+        "Petrol": 2,
+        "Diesel": 1
+    },
+    "engine_type": {
+        "F8D Petrol Engine": 6,
+        "1.2 L K12N Dualjet": 2,
+        "1.0 SCe": 0,
+        "1.5 L U2 CRDi": 3,
+        "1.5 Turbocharged Revotorq": 4,
+        "K Series Dual jet": 8,
+        "1.2 L K Series Engine": 1,
+        "K10C": 9,
+        "i-DTEC": 10,
+        "G12B": 7,
+        "1.5 Turbocharged Revotron": 5
+    },
+    "rear_brakes_type": {
+        "Drum": 1,
+        "Disc": 0
+    },
+    "transmission_type": {
+        "Manual": 1,
+        "Automatic": 0
+    },
+    "steering_type": {
+        "Power": 2,
+        "Electric": 0,
+        "Manual": 1
+    },
+    "columns": [
+        "age_of_car",
+        "age_of_policyholder",
+        "area_cluster",
+        "population_density",
+        "make",
+        "segment",
+        "model",
+        "fuel_type",
+        "engine_type",
+        "rear_brakes_type",
+        "transmission_type",
+        "gear_box",
+        "steering_type"
+    ]
+}
