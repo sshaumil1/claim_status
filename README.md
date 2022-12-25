@@ -51,7 +51,8 @@ The data was labelled and had 43 independent features and target feature named i
 40. is_day_night_rear_view_mirror: feature has information regarding is vehicle has day and night rear view mirror or not.
 41. is_ecw: feature has information regarding is vehicle has esw or not.
 42. is_speed_alert: feature has information regarding is vehicle has speed alert or not.
-43. ncap_rating: what is the ncap(safty) rating of the car
+43. ncap_rating: what is the ncap(safty) rating of the car.
+
 So, by seeing all the features we have to decide that will owner of the vehicle claim the insurance or not.
 
 ### 4. EDA
