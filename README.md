@@ -1,11 +1,11 @@
 # claim_status
-# 1. Problem Statement
+### 1. Problem Statement
 The insurance conpany wants to know about it's costomers claim the insurance or not.
 
-# 2. Brainstorming 
+### 2. Brainstorming 
 After getting problem statement  i concluded that, some of the parameters can affect this problem. the parameters are city or area, where more chances to accident, what is the population on same area (by means of people and vehicles), age of car also can affect, etc.
 
-# 3. Data Gathering
+### 3. Data Gathering
 So, i get data from the kaggel website. I downloaded the csv file. first i had to validate the data first, is the data fit for our problem statement or not. So, i got the data is good according to solve this problem. That's why i read the csv file and made a data frame named train_df.
 The data was labelled and had 43 independent features and target feature named is_claim. and independent features are:
 
@@ -54,5 +54,5 @@ The data was labelled and had 43 independent features and target feature named i
 43. ncap_rating: what is the ncap(safty) rating of the car
 So, by seeing all the features we have to decide that will owner of the vehicle claim the insurance or not.
 
-# 4. EDA
+### 4. EDA
 first i checked for null iformation of the features with memory use then i cheked for null values and got no null values. Then i checked for duplicate values and got no duplicated records. Then i checked all the statics of the features with describe funtion. Then i cheked the count plot and found that the data is highly imbalanced.
