@@ -64,5 +64,17 @@ I had the vision to apply feature engineering on the data as i already observe t
 ### 6. Feature Selection
 In feature selection i used several methods, including VIF, variance threshold, information gain, chi2 score, etc. and got only a few features are good to give the model. But i think i could not dropp all the features so i did reaserch on google and read about featuers and got some features can affect the target. Lastly i keep them features and drop rest of them. Then i resample the training data by using SMOTE technique up to 70%.
 
-### 7. Model Selection & Training 
+### 7. Model Selection & Training (Evalution)
+First i initialized the objects for the models then made a list of tupels, in which the model name and object was present. Then i used for loop for name and model. So, in this way i pridict the values and also got accuracies on the training as well as testing data. After getting all the accuracies, i got Decision Tree Classifier was good for my model. So, i used hyperparameter tuning in order to get good balance on the accuracies on training as well as testing data. But, i got bad combination. That's why i cheked the accuracies by using pruning. So, still i was not happy with the accuracies. So, lastly i decided to go forward with the Decision tree model without hyperparameter tuning and pruning.
+
+### 8. Deployment
+
+#### a. Postman API
+First i checked the model for user input that it is working or not. So, it was working. So, i saved the model in pickle file. And created a dictionary for the featues and saved it in json formate. Next i go to Visual Studio Code software and create some files, including, __init__, utils, interface, templates(folder),config, gitignore, etc. After creating the API's i checked them with the help of Postman and it was working. 
+
+### b. Virtual Environment
+I made a virtual env file, named is_claim.yml by using anaconda prompt in order to further use of this model. I installed all the libraries in this so that my model can be optimized and re train in further time. 
+
+So, till now i did not deploy my model on AWS server, but further i will deploy it. 
+
 
