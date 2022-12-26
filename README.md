@@ -69,12 +69,12 @@ First i initialized the objects for the models then made a list of tupels, in wh
 
 ### 8. Deployment
 
-#### a. Postman API
+#### a. Postman API Testing
 First i checked the model for user input that it is working or not. So, it was working. So, i saved the model in pickle file. And created a dictionary for the featues and saved it in json formate. Next i go to Visual Studio Code software and create some files, including, __init__, utils, interface, templates(folder),config, gitignore, etc. After creating the API's i checked them with the help of Postman and it was working. 
 
-### b. Virtual Environment
-I made a virtual env file, named is_claim.yml by using anaconda prompt in order to further use of this model. I installed all the libraries in this so that my model can be optimized and re train in further time. 
-
 So, till now i did not deploy my model on AWS server, but further i will deploy it. 
+
+### Virtual Environment
+I made a virtual env file, named is_claim.yml by using anaconda prompt in order to further use of this model. I installed all the libraries in this so that my model can be optimized and re train in further time. 
 
 
