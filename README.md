@@ -56,4 +56,13 @@ The data was labelled and had 43 independent features and target feature named i
 So, by seeing all the features we have to decide that will owner of the vehicle claim the insurance or not.
 
 ### 4. EDA
-first i checked for null iformation of the features with memory use then i cheked for null values and got no null values. Then i checked for duplicate values and got no duplicated records. Then i checked all the statics of the features with describe funtion. Then i cheked the count plot and found that the data is highly imbalanced.
+First i checked for null iformation of the features with memory use then i cheked for null values and got no null values. Then i checked for duplicate values and got no duplicated records. Then i checked all the statics of the features with describe funtion. Then i cheked the count plot and found that the data is highly imbalanced. Then i seperated categorical and numarical features, and visualized the count plot and distribution plot respectively by using seaborn library. Next, i saw the unique values and got two features (policy id and policy tenure) has all the unique values, so i drop them because there was no effect on the target. By using boxplot i observed outliers in the age of car and age  of policy hoder features. Then i checked how many policies is calaimed and not claimed according to age of cars in different ncap_ratings by ploting pivot table with the help of matplotlib. Next i used cross tab function to see how many policies is claimed and not claimed in different ncp rating, while having speed alert system. After getting insites from the data i moved to feature engineering.
+
+### 5. Feature Engineering
+I had the vision to apply feature engineering on the data as i already observe the data in EDA. So, i removed the featues with all the unique values. Next, i made a copy of my dataframe to secure the data. Then i use Ordinal Encoder on the features to encode them. Next, i do preprocessing on two featues (max torque, max power) also rename them in max_torque_nm and max_power_bhp respectively. Next, i split the data into training as well as testing. Then i used standerd scaler on the training and testing data independently to avoid data leakage.
+
+### 6. Feature Selection
+In feature selection i used several methods, including VIF, variance threshold, information gain, chi2 score, etc. and got only a few features are good to give the model. But i think i could not dropp all the features so i did reaserch on google and read about featuers and got some features can affect the target. Lastly i keep them features and drop rest of them. Then i resample the training data by using SMOTE technique up to 70%.
+
+### 7. Model Selection & Training 
+
